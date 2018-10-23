@@ -1,0 +1,240 @@
+<!doctype html>
+<html>
+  <head>
+    <title>
+      Portfolio Site
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale = 1.0, initial-scale = 1.0, maximum-scale = 5.0, user-scalable=yes, shrink-to-fit=no">
+
+    <meta name="description" content="This is the description of the page">
+
+    <meta property="og:title" content="Portfolio Site">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://example.com/image-to-be-shown-in-facebook.jpg">
+    <meta property="og:description" content="This is the description of the page that will show in the facebook card">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@twitterHandleOfSite">
+    <meta name="twitter:creator" content="@twitterHandleOfCreator">
+    <meta name="twitter:title" content="Title of the Page to be shown in Twitter">
+    <meta name="twitter:description" content="This is the description of the page that will show in the twitter card">
+    <meta name="twitter:image" content="https://example.com/image-to-be-shown-in-twitter.jpg">
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      /* start of header */
+
+      .header {
+        min-height: 400px;
+        background: url('http://demo.qodeinteractive.com/bridge/wp-content/uploads/2014/03/headerimg4.jpg') center center/cover no-repeat;
+      }
+
+      /* start of header-top */
+
+      .header-top {
+        padding: 12px;
+        display: flex;
+        flex-direction: row;
+      }
+
+      .title-logo {
+        font-size: 1.5rem;
+      }
+
+      .title-logo-link {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .navigation {
+        flex: 1;
+        text-align: right;
+      }
+
+      .nav-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        vertical-align: middle;
+      }
+
+      .nav-item {
+        list-style-type: none;
+        margin: 12px;
+        display: inline-block;
+      }
+
+      .nav-link {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .nav-link:hover {
+        padding-bottom: 6px;
+        border-bottom: 1px solid red;
+      }
+
+      /* end of header-top */
+
+      /* start of header-center */
+
+      .header-center {
+        text-align: center;
+        margin: 12px auto;
+        width: 100%;
+        max-width: 600px;
+        padding-bottom: 48px;
+      }
+
+      .small-logo {
+        width: 120px;
+      }
+
+      .header-logo {
+        color: #2131c3;
+        font-size: 2rem;
+      }
+
+      .sub-header {
+        font-size: 0.75rem;
+        color: rgba(0,0,0,0.5);
+        max-width: 400px;
+        margin: 24px auto;
+      }
+
+      .call-to-action {
+        text-decoration: none;
+        color: white;
+        background: #2131c3;
+        display: inline-block;
+        padding: 12px 24px;
+        border-radius: 12px;
+      }
+
+      /* end of header */
+
+      .container {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .left-side {
+        min-height: 300px;
+        flex: 1;
+        margin: 12px 12px 12px 0;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .left-side-container {
+        flex: 1;
+        padding: 24px;
+
+      }
+
+      .left-side-container p {
+        margin: 12px auto;
+        max-width: 300px;
+      }
+
+      .right-side {
+        min-height: 300px;
+        flex: 1;
+        margin: 12px 12px 0 12px;
+        background: blue;
+      }
+
+      .bottom {
+        height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="header-top">
+        <h1 class="title-logo">
+          <a href="/" class="title-logo-link">
+            Logo
+          </a>
+        </h1>
+
+        <nav class="navigation">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="/" class="nav-link">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="/" class="nav-link">
+                About Me
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="/" class="nav-link">
+                Projects
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header-center">
+        <img class="small-logo" alt="Logo of the site" src="https://cdn0.iconfinder.com/data/icons/HTML5/512/HTML_Logo.png" >
+
+        <h1 class="header-logo">
+          I build User Experience design with &lt;/code&gt;
+        </h1>
+
+        <p class="sub-header">
+          Lorem ipsum dolor sit amet, nam ex phaedrum delicata, et contentiones reprehendunt nec. Impetus accusam an qui. At usu duis vidisse percipitur. Vel facer nostro at. Ut pri cibo saepe nostrud.
+        </p>
+
+        <a href="/" class="call-to-action">
+          Let's talk
+        </a>
+      </div>
+    </header>
+
+    <div class="container">
+      <section class="left-side">
+        <div class="left-side-container">
+          <p>
+            Lorem ipsum dolor sit amet, nam ex phaedrum delicata, et contentiones reprehendunt nec. Impetus accusam an qui. At usu duis vidisse percipitur. Vel facer nostro at. Ut pri cibo saepe nostrud.
+          </p>
+          <p>
+            Eam ad dicant melius. His oratio facilis et, et meis tractatos est, usu modo vocent voluptua in. Ipsum exerci definitiones nec at. Homero reprehendunt ex vis, vix in dictas accumsan reprimique, has reque nulla adolescens ei.
+          </p>
+        </div>
+      </section>
+
+      <section class="right-side">
+        <p>
+          Pro ut vitae discere repudiare, no enim epicuri rationibus ius. Hinc malis reformidans nam ne. Elit accumsan platonem cu his, congue facete ei quo. Antiopam postulant omittantur quo et, quis verterem ex eum. Vitae hendrerit similique pri ex.
+        </p>
+        <p>
+          Ex est elitr perpetua, eos et vocibus denique, vel cu malorum forensibus voluptaria. Voluptatum assueverit inciderint ex per, ad alii fierent definitiones cum. Sint adhuc ex eum. Ei dicat insolens salutandi usu, sed legere albucius eu.
+        </p>
+      </section>
+    </div>
+
+    <section class="bottom">
+      Bottom
+    </section>
+  </body>
+</html>
